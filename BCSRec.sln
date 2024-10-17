@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BCSRec", "BCSRec\BCSRec.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AreaAndPerimeterTest", "AreaAndPerimeterTest\AreaAndPerimeterTest.vcxproj", "{4A4B5423-3D99-4953-B786-113ACA0A435C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SetLengthAndWidthTest", "SetLengthAndWidthTest\SetLengthAndWidthTest.vcxproj", "{BAAFB7FC-EF51-42C3-AA58-68A9FA42C91F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{4A4B5423-3D99-4953-B786-113ACA0A435C}.Release|x64.Build.0 = Release|x64
 		{4A4B5423-3D99-4953-B786-113ACA0A435C}.Release|x86.ActiveCfg = Release|Win32
 		{4A4B5423-3D99-4953-B786-113ACA0A435C}.Release|x86.Build.0 = Release|Win32
+		{BAAFB7FC-EF51-42C3-AA58-68A9FA42C91F}.Debug|x64.ActiveCfg = Debug|x64
+		{BAAFB7FC-EF51-42C3-AA58-68A9FA42C91F}.Debug|x64.Build.0 = Debug|x64
+		{BAAFB7FC-EF51-42C3-AA58-68A9FA42C91F}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAAFB7FC-EF51-42C3-AA58-68A9FA42C91F}.Debug|x86.Build.0 = Debug|Win32
+		{BAAFB7FC-EF51-42C3-AA58-68A9FA42C91F}.Release|x64.ActiveCfg = Release|x64
+		{BAAFB7FC-EF51-42C3-AA58-68A9FA42C91F}.Release|x64.Build.0 = Release|x64
+		{BAAFB7FC-EF51-42C3-AA58-68A9FA42C91F}.Release|x86.ActiveCfg = Release|Win32
+		{BAAFB7FC-EF51-42C3-AA58-68A9FA42C91F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
