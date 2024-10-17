@@ -12,7 +12,7 @@ namespace AreaAndPerimeterTest
 	{
 	public:
 		
-		TEST_METHOD(AreaTest)
+		TEST_METHOD(GetAreaTest)
 		{
 			int length = 5;
 			int width = 4;
@@ -20,7 +20,7 @@ namespace AreaAndPerimeterTest
 			Assert::AreEqual(expectedResult, getArea(&length, &width));
 		}
 
-		TEST_METHOD(PerimeterTest)
+		TEST_METHOD(GetPerimeterTest)
 		{
 			int length = 5;
 			int width = 4;

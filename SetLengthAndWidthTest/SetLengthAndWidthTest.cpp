@@ -12,7 +12,7 @@ namespace SetLengthAndWidthTest
 	{
 	public:
 		
-		TEST_METHOD(LengthWithinRange)
+		TEST_METHOD(SetLengthWithinRange)
 		{
 			int length = 1;
 			int input = 50;
@@ -20,7 +20,7 @@ namespace SetLengthAndWidthTest
 			Assert::AreEqual(input, length);
 		}
 
-		TEST_METHOD(LengthLowerLimit)
+		TEST_METHOD(SetLengthLowerLimit)
 		{
 			int length = 1;
 			int input = 0;
@@ -29,7 +29,7 @@ namespace SetLengthAndWidthTest
 			Assert::AreEqual(1, length);// test to see if length is still the same number as it started as
 		}
 
-		TEST_METHOD(LengthUpperLimit)
+		TEST_METHOD(SetLengthUpperLimit)
 		{
 			int length = 1;
 			int input = 100;
@@ -38,7 +38,7 @@ namespace SetLengthAndWidthTest
 			Assert::AreEqual(1, length);// test to see if length is still the same number as it started as
 		}
 
-		TEST_METHOD(WidthWithinRange)
+		TEST_METHOD(SetWidthWithinRange)
 		{
 			int width = 1;
 			int input = 50;
@@ -46,7 +46,7 @@ namespace SetLengthAndWidthTest
 			Assert::AreEqual(input, width);
 		}
 
-		TEST_METHOD(WidthLowerLimit)
+		TEST_METHOD(SetWidthLowerLimit)
 		{
 			int width = 1;
 			int input = 0;
@@ -55,7 +55,7 @@ namespace SetLengthAndWidthTest
 			Assert::AreEqual(1, width);// test to see if length is still the same number as it started as
 		}
 
-		TEST_METHOD(WidthUpperLimit)
+		TEST_METHOD(SetWidthUpperLimit)
 		{
 			int width = 1;
 			int input = 100;
